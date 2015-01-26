@@ -38,7 +38,7 @@ public class Grabber {
 						x2 = x;
 				}
 			}
-		}
+		} 
 		
 		System.out.println(x1 + ", " + y1 + " \r\n " + x2 + ", " + y2);
 		
@@ -60,6 +60,9 @@ public class Grabber {
 		
 	}
 	
+	public static void floodFill(int[][][] matrix){
+		
+	}
 	
 	public static boolean matches(int[] pixels, int r, int g, int b, int tolerance){
 		return Math.abs(pixels[0] - r) <= tolerance && Math.abs(pixels[1] - g) <= tolerance && Math.abs(pixels[2] - b) <= tolerance;
